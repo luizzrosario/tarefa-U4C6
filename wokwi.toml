@@ -1,4 +1,4 @@
 [wokwi]
 version = 1
-firmware = 'build/DisplayC.uf2'
-elf = 'build/DisplayC.elf'
+firmware = 'build/tarefa-U4C6.uf2'
+elf = 'build/tarefa-U4C6.elf'

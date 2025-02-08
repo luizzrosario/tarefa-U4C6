@@ -35,13 +35,13 @@ pico_sdk_init()
 
 # Add executable. Default name is the project name, version 0.1
 
-add_executable(tarefa-U4C6 tarefa-U4C6.c )
+add_executable(tarefa-U4C6 tarefa-U4C6.c inc/ssd1306.c)
 
 pico_set_program_name(tarefa-U4C6 "tarefa-U4C6")
 pico_set_program_version(tarefa-U4C6 "0.1")
 
 # Generate PIO header
-pico_generate_pio_header(tarefa-U4C6 ${CMAKE_CURRENT_LIST_DIR}/blink.pio)
+pico_generate_pio_header(tarefa-U4C6 ${CMAKE_CURRENT_LIST_DIR}/ws2812.pio)
 
 # Modify the below lines to enable/disable output over UART/USB
 pico_enable_stdio_uart(tarefa-U4C6 1)
@@ -61,7 +61,7 @@ target_link_libraries(tarefa-U4C6
         hardware_spi
         hardware_i2c
         hardware_pio
-        
+        hardware_uart
         )
 
 pico_add_extra_outputs(tarefa-U4C6)
