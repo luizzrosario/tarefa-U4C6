@@ -208,7 +208,14 @@ int main() {
     ssd1306_send_data(&ssd);
 
     // Mensagem inicial via USB
-    printf("USB Demo - RP2\nDigite um número (0-9):\n");
+    printf("Digite para ver o eco do RP2 e no Display OLED - E um número (0-9) para visualizar na matriz de LED:\n");
+
+    ssd1306_fill(&ssd, false);
+    ssd1306_draw_string(&ssd, "abcdefghijklmno", 4, 4);
+    ssd1306_draw_string(&ssd, "pqrstuvwxyz", 4, 14);
+    ssd1306_draw_string(&ssd, "ABCDEFGHIJKLMNO", 4, 24);
+    ssd1306_draw_string(&ssd, "PQRSTUVWXYZ", 4, 34);
+    ssd1306_send_data(&ssd);
 
     // Loop principal
     while (true) {

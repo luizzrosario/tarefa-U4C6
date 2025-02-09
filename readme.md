@@ -1,6 +1,6 @@
-# Projeto RP2 - Controle de LEDs e Display SSD1306
+# Tarefa - U4C6
 
-Este projeto foi desenvolvido utilizando o microcontrolador RP2040, mais especificamente a Raspberry Pi Pico, com o objetivo de controlar LEDs RGB, uma matriz de LEDs WS2812, e exibir informações em um display OLED SSD1306. A interação com o sistema é feita através de botões físicos, comandos via USB e visualização no display OLED.
+Este projeto tem o objetivo de controlar LEDs RGB, uma matriz de LEDs WS2812, e exibir informações em um display OLED SSD1306. A interação com o sistema é feita através de botões físicos, comandos via USB e visualização no display OLED.
 
 ## Funcionalidades
 
