@@ -69,3 +69,9 @@ Na biblioteca `font.h`, foi implementada a funcionalidade de exibir caracteres m
 
 4. **Conectar via USB**:
    O projeto utiliza comunicação USB, então conecte a Raspberry Pi Pico ao computador via cabo USB e abra um terminal serial para visualizar as saídas.
+
+## Vídeo Demonstrativo
+
+Veja o vídeo demonstrativo do projeto no seguinte link:
+
+[Vídeo Demonstrativo](https://youtube.com/shorts/2QOxWYOd0_U?si=wLij0cFYWLklwHJx)
